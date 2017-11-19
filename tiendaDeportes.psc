@@ -1,4 +1,4 @@
-Algoritmo tiendaDeportes
+Algoritmo tiendaDeportesa
 	Definir nombre Como Cadena
 	Definir precioUno,precioDos,precioTres,precioSinDes,conde Como Entero
 	Definir precioMenor,precioMedio,montoTotal Como Real
@@ -11,36 +11,36 @@ Algoritmo tiendaDeportes
 	precioSinDes <- 0
 	montoTotal <- 0
 	conde <- 1
-	Escribir 'Este algoritmo solicita el nombre del cliente y le pide el precio de tres art’culos de distintos costos para aplicar un descuento del 50% en el art’culo de menor precio y de 25% en el art’culo que siga con menor precio y calcula el monto total de la compra, otorgando un ticket de compra.'
+	Escribir 'Este algoritmo solicita el nombre del cliente y le pide el precio de tres artÃ­culos de distintos costos para aplicar un descuento del 50% en el artÃ­culo de menor precio y de 25% en el artÃ­culo que siga con menor precio y calcula el monto total de la compra, otorgando un ticket de compra.'
 	Escribir 'Introduzca su nombre:'
 	Leer nombre
-	Escribir 'Ingrese el valor del art’culo ',conde,' mayor a cero:'
+	Escribir 'Ingrese el valor del artÃ­culo ',conde,' mayor a cero:'
 	Leer precioUno
 	Mientras precioUno<=0 Hacer
 		conde <- conde+1
 		conde <- conde-1
-		Escribir 'Valor no v‡lido. El valor debe ser mayor a cero.'
-		Escribir 'Ingrese el valor del art’culo ',conde,' mayor a cero:'
+		Escribir 'Valor no vâ€¡lido. El valor debe ser mayor a cero.'
+		Escribir 'Ingrese el valor del artÃ­culo ',conde,' mayor a cero:'
 		Leer precioUno
 	FinMientras
 	conde <- conde+1
-	Escribir 'Ingrese el valor del art’culo ',conde,' mayor a cero:'
+	Escribir 'Ingrese el valor del artÃ­culo ',conde,' mayor a cero:'
 	Leer precioDos
 	Mientras precioDos<=0 Hacer
 		conde <- conde+1
 		conde <- conde-1
-		Escribir 'Valor no v‡lido. El valor debe ser mayor a cero.'
-		Escribir 'Ingrese el valor del art’culo ',conde,' mayor a cero:'
+		Escribir 'Valor no vÃ¡lido. El monto debe ser mayor a cero.'
+		Escribir 'Ingrese el valor del artÃ­culo ',conde,' mayor a cero:'
 		Leer precioDos
 	FinMientras
 	conde <- conde+1
-	Escribir 'Ingrese el valor del art’culo ',conde,' mayor a cero:'
+	Escribir 'Ingrese el valor del artÃ­culo ',conde,' mayor a cero:'
 	Leer precioTres
 	Mientras precioTres<=0 Hacer
 		conde <- conde+1
 		conde <- conde-1
-		Escribir 'Valor no v‡lido. El valor debe ser mayor a cero.'
-		Escribir 'Ingrese el valor del art’culo ',conde,' mayor a cero:'
+		Escribir 'Valor no vÃ¡lido. El valor debe ser mayor a cero.'
+		Escribir 'Ingrese el valor del artÃ­culo ',conde,' mayor a cero:'
 		Leer precioTres
 	FinMientras
 	Si precioUno<precioDos Entonces
@@ -91,10 +91,10 @@ Algoritmo tiendaDeportes
 	Escribir ' '
 	Escribir 'Gracias por tu compra.'
 	Escribir ' '
-	Escribir 'Tu compra fue de $',precioMenor,' con el 50% de descuento aplicado $',precioMedio,' con el 25% de descuento aplicado y $',precioSinDes,' sin descuento. El monto total a pagar es de: $ ',montoTotal
+	Escribir 'Tu compra fue de $',precioMenor,' con el 50% de descuento aplicado, $',precioMedio,' con el 25% de descuento aplicado y $',precioSinDes,' sin descuento. El monto total a pagar es de: $ ',montoTotal
 	Escribir ' '
 	Escribir 'Ticket de compra'
-	Escribir ' '
+	Escribir 'nombre'
 	Escribir '$',precioMenor,' con el 50% de descuento aplicado.'
 	Escribir '$',precioMedio,' con el 25% de descuento aplicado.'
 	Escribir '$',precioSinDes,' sin descuento.'
