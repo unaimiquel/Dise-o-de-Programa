@@ -16,7 +16,8 @@ Algoritmo tiendaDeportesa
 	Escribir 'Introduzca su nombre:'
 	Leer nombre
 	Escribir 'Hola', nombre,' Estos son los departamentos con los que contamos de deportes que puedes elegir'
-	Escribir '1. Futbol soccer 2. Futbol Americano '
+	Escribir '1. Futbol soccer 2. Futbol Americano 3. Basquetbol 4.Natación 5. Beisbol 6. Mas deportes '
+	leer 'op'
 	Escribir 'Ingrese el valor del artículo ',conde,' mayor a cero:'
 	Leer precioUno
 	Mientras precioUno<=0 Hacer
