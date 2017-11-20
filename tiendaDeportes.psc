@@ -12,8 +12,11 @@ Algoritmo tiendaDeportesa
 	montoTotal <- 0
 	conde <- 1
 	Escribir 'Este algoritmo solicita el nombre del cliente y le pide el precio de tres artículos de distintos costos para aplicar un descuento del 50% en el artículo de menor precio y de 25% en el artículo que siga con menor precio y calcula el monto total de la compra, otorgando un ticket de compra.'
+	Escribir 'Tenemos diferentes departamentos de los cuales puedes elegir el producto que desees'
 	Escribir 'Introduzca su nombre:'
 	Leer nombre
+	Escribir 'Hola', nombre,' Estos son los departamentos con los que contamos de deportes que puedes elegir'
+	Escribir '1. Futbol soccer 2. Futbol Americano '
 	Escribir 'Ingrese el valor del artículo ',conde,' mayor a cero:'
 	Leer precioUno
 	Mientras precioUno<=0 Hacer
